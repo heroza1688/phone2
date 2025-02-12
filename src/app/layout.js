@@ -3,7 +3,8 @@ import "./globals.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Script from "next/script";
-
+import Footer from './components/Footer';
+// การตั้งค่า font
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -44,31 +45,25 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
         <title>PG Phone Shop ผ่อนมือถือ เดอะมอลล์โคราช ชั้น 3 รับซื้อ ซ่อม เทิร์น มือถือ</title>
 
-
+       
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16868993640"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}`}
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-16868993640');
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}');
           `}
         </Script>
-
-
-
-
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+
         {children}
 
-
-      
-
-
+        <Footer/>
       </body>
     </html>
   );

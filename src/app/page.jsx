@@ -3,7 +3,8 @@ import Pages from './components/Pages';
 import Sliders from './components/Sliders';
 import Item from './components/Item';
 import Header from './components/Header';
-import Footer from './components/Footer';
+
+import Videos from './components/Videos';
 
 
 export default function page() {
@@ -13,10 +14,11 @@ export default function page() {
 
 
     <Header/>
+    <Videos/>
     <Pages/>
     <Sliders/>
     <Item/>
-    <Footer/>
+ 
     
     </>
   )
