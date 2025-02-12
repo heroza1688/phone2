@@ -21,31 +21,28 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="PG Phone Shop ผ่อนมือถือ เดอะมอลล์โคราช ชั้น 3 รับซื้อ ซ่อม เทิร์น มือถือ"
-        />
-        <meta
-          name="keywords"
-          content="มือถือ, สมาร์ทโฟน, ร้านขายมือถือ, ราคามือถือ, สั่งซื้อมือถือออนไลน์, ผ่อนมือถือ"
-        />
-        <meta
-          property="og:title"
-          content="PG Phone Shop ผ่อนมือถือ เดอะมอลล์โคราช ชั้น 3"
-        />
-        <meta
-          property="og:description"
-          content="ร้านขายมือถือที่มีสินค้าคุณภาพสูง ทุกรุ่นทุกยี่ห้อ ผ่อนมือถือได้ที่ เดอะมอลล์โคราช ชั้น 3"
-        />
-        <meta property="og:image" content="/img/phone-1.jpg" />
-        {/* <meta property="og:url" content="https://yourwebsite.com" /> */}
+        <title>PG-V9 | PG-Phoneโทรศัพท์มือถือราคาถูกที่สุด PG-V9 PRO </title>
+        <meta name="description" content="PG-V9 | PG-Phoneโทรศัพท์มือถือราคาถูกที่สุด สมาร์ทโฟนรุ่นใหม่ล่าสุดPG-V9 PRO ความกว้างหน้าจอ6นิ้ว ความละเอียดหน้าจอHD"/>
+        <meta name="keywords" content="มือถือ, สมาร์ทโฟน, ร้านขายมือถือ, ราคามือถือ, สั่งซื้อมือถือออนไลน์, ผ่อนมือถือ"/>
+        <meta property="og:title" content="PG-V9 | PG-Phoneโทรศัพท์มือถือราคาถูกที่สุด" />
+        <meta property="og:description" content="PG-V9 | PG-Phoneโทรศัพท์มือถือราคาถูกที่สุด สมาร์ทโฟนรุ่นใหม่ล่าสุดPG-V9 PRO ความกว้างหน้าจอ6นิ้ว ความละเอียดหน้าจอHD"/>
+        <meta property="og:image" content="/img/phone-1.jpg"/>
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
 
         <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-        <title>PG Phone Shop ผ่อนมือถือ เดอะมอลล์โคราช ชั้น 3 รับซื้อ ซ่อม เทิร์น มือถือ</title>
+      
+        <meta property="og:image:type" content="image/jpeg"/>
+        <meta property="og:image:height" content="2000"/>
+        <meta property="og:image:width" content="2000"/>
+        <meta property="og:image" content="/img/phone-1.jpg"/>
 
-       
+
+
+
+
+
+
         <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}`}
