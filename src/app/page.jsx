@@ -11,6 +11,7 @@ export default function page() {
   return (
     <>
 
+
     <Header/>
     <Pages/>
     <Sliders/>
