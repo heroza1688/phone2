@@ -3,6 +3,23 @@ export default function Pages() {
   return (
     <>
    <section className="section" id="About">
+	   <body className="index-page">
+
+  <header id="header" className="header d-flex align-items-center fixed-top">
+    <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 className="sitename">PGPHONESHOP</h1>
+      </a>
+
+      <nav id="navmenu" className="navmenu">
+        <ul>
+          <li><a href="#hero" className="active">หน้าแรก</a></li>
+          <li><a href="#about">เกี่ยวกับ</a></li>
+          <li><a href="#features">คุณสมบัติ</a></li>
+          <li><a href="#pricing">นโยบายความเป็นส่วนตัว</a></li>
+        </ul>
+      </nav>
 	<div className="container">
 		<div className="row">
 			<div className="col-md-6 text-center mb-5 mb-md-0">
