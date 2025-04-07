@@ -1,164 +1,196 @@
-import React from 'react'
+import React from 'react';
+
 export default function Pages() {
   return (
     <>
-   <section className="section" id="About">
-	<div className="container">
-		<div className="row">
-			<div className="col-md-6 text-center mb-5 mb-md-0">
-				<img className="img-fluid" src="img/phone-1.jpg" alt="pg"/>
-			</div>
-			<div className="col-md-6 align-self-center text-center text-md-left">
-				<div className="block">
-					<h1 className="font-weight-bold mb-4 font-size-60">ร้านขายโทรศัพท์มือถือราคาถูกยี่ห้อ PG</h1>
-					<p className="mb-4"> โทรศัพท์มือถือราคา โทรศัพท์มือถือระบบแอนดรอยด์ ร้านขายโทรศัพท์มือถือราคาถูก PGเว็บตรงจากต่างประเทศ100% 
-            หน้าจอความกว้างหน้าจอ6นิ้ว ความละเอียดหน้าจอHD ร้านขายโทรศัพท์ราคาถูกที่สุดPG เล่นเกมลื่นไม่มีสะดุดแบตอึดทน PGเว็บตรงช่วงโปรโมชั่น PG เว็บตรงเว็บไซต์จากสิงค์โปร
-            ร้านขายโทรศัพท์ราคาถูกที่สุดPG ปลดล็อคหน้าจอด้วยระบบสแกนหน้า ร้านขายโทรศัพท์ราคาถูกที่สุดPG เว็บตรง ช่วงโปรโมชั่นแรงๆ ปลดล็อคหน้าจอด้วยระบบสแกนหน้า
-            สมาร์ทโฟน4G หน้าจอความกว้างหน้าจอ6นิ้ว ความละเอียดหน้าจอ HD
-          </p>
-					
-					<a href="https://www.facebook.com/PGPhoneShop/" target='_bank' className="btn btn-main">ติดต่อสอบถาม</a>
-					
-				</div>
-			</div>
-		</div>
-	</div>
-</section>  
+      {/* Header Section */}
+      <header id="header" className="header d-flex align-items-center fixed-top">
+        <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+          <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
+            <h1 className="sitename">PGPHONESHOP</h1>
+          </a>
 
-<section className="section" id="features">
-  <div className="container">
-    <div className="row">
-      <div className="col-12">
-        <div className="heading">
-          <h2> โทรศัพท์มือถือ PG ข้อมูลจำเพาะของสินค้า </h2>
-        </div>
-      </div>
-      <div className="col-md-4">
-        
-        <div className="mb-40 text-center text-md-left">
-          <i className="d-inlin-block h2 mb-10 tf-ion-ios-alarm-outline"></i>
-          <h4 className="font-weight-bold mb-2">โทรศัพท์มือถือ PG ราคาถูก</h4>
-          <p> PGเว็บตรงช่วงโปรโมชั่นแรงๆ PGเว็บตรงเรามีโปรโมชั่นมากมาย
+          <nav id="navmenu" className="navmenu">
+            <ul>
+              <li><a href="#hero" className="active">หน้าแรก</a></li>
+              <li><a href="#about">เกี่ยวกับ</a></li>
+              <li><a href="#features">คุณสมบัติ</a></li>
+              <li><a href="#pricing">นโยบายความเป็นส่วนตัว</a></li>
+            </ul>
+          </nav>
 
+          <a className="btn-getstarted" href="index.html#about">เริ่มต้นเลย</a>
+        </div>
+      </header>
 
-          </p>
-        </div>
-        
-        <div className="mb-40 text-center text-md-left">
-          <i className="d-inlin-block h2 mb-10 tf-ion-ios-bell-outline"></i>
-          <h4 className="font-weight-bold mb-2">โทรศัพท์มือถือPG สมาร์ทโฟน4G</h4>
-          <p>หน้าจอกว้าง6นิ้ว รองรับ2ซิม4G ร้านขายโทรศัพท์ราคาถูกที่สุด PGเว็บตรงช่วงโปรโมชั่นแรงๆ ปลดล็อคหน้าจอด้วยระบบสแกนหน้า</p>
-        </div>
-        
-        <div className="mb-40 text-center text-md-left">
-          <i className="d-inlin-block h2 mb-10 tf-ion-ios-cart-outline"></i>
-          <h4 className="font-weight-bold mb-2">ล่นเกมลื่นไม่มีสะดุดแบตอึดทน</h4>
-          <p>PGเว็บตรงช่วงโปรโมชั่นแรงๆ PGเว็บตรงจากสิงค์โปร</p>
-        </div>
-        
-      </div>
-      <div className="col-md-4 text-center align-self-center mb-4 mb-md-0">
-        <img className="img-fluid" src="/img/phone-2.png" alt="pg9"/>
-      </div>
-      <div className="col-md-4">
-          
-        <div className="mb-40 text-center text-md-left">
-          <i className="d-inlin-block h2 mb-10 tf-ion-ios-alarm-outline"></i>
-          <h4 className="font-weight-bold mb-2"> มือถือ RAM 4 GB รุ่นแรก</h4>
-          <p>เริ่มต้นกันด้วย Motorola One Action ที่ออกมาเพื่อคนที่ชื่นชอบในการถ่ายภาพเอาท์ดอร์ ถึงแม้ตัวเครื่องอาจจะไม่ได้อึดหรือกันน้ำอะไรมาก</p>
-        </div>
-        
-        <div className="mb-40 text-center text-md-left">
-          <i className="d-inlin-block h2 mb-10 tf-ion-ios-bell-outline"></i>
-          <h4 className="font-weight-bold mb-2">ปลดล็อคหน้าจอด้วยระบบสแกนหน้า</h4>
-          <p>แต่มือถือรุ่นนี้ก็มีจุดเด่นที่ไม่เหมือนใครด้วยกล้องมุมกว้างพิเศษความละเอียด 16 ล้านพิกเซล เก็บภาพได้กว้างสุด 117 องศา 
-            มีเทคโนโลยี Pixel-Binning และระบบกันสั่น EIS ที่มีฟีเจอร์ถ่ายวีดีโอแนวตั้งแต่สามารถแสดงผลในแนวนอนได้ ทำให้ใช้งานสะดวกแต่ฟีเจอร์นี้ไม่สามารถใช้ได้กับภาพนิ่ง</p>
-        </div>
-        
-        <div className="mb-40 text-center text-md-left">
-          <i className="d-inlin-block h2 mb-10 tf-ion-ios-cart-outline"></i>
-          <h4 className="font-weight-bold mb-2">ความละเอียดหน้าจอHD</h4>
-          <p>สมาร์ทโฟน 4G หน้าจอ ความกว้างหน้าจอ 6 นิ้ว ความละเอียดหน้าจอ HD เล่นเกมลื่นไม่มีสะดุดแบตอึดทน PG เว็บตรง ช่วงโปรโมชั่น PG เว็บตรงเว็บไซต์จากสิงค์โปร</p>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-</section>
+      <main className="main">
+        {/* Hero Section */}
+        <section id="hero" className="hero section">
+          <div className="container" data-aos="fade-up" data-aos-delay="100">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
+                <div className="hero-content" data-aos="fade-up" data-aos-delay="200">
+                  <div className="company-badge mb-4">
+                    <i className="bi bi-gear-fill me-2"></i>
+                    PGPHONESHOP
+                  </div>
 
-<section className="bg-orange section" id="Service">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 text-center mb-5 mb-lg-0">
-              <img className="img-fluid" src="img/phone-3.png" alt="Watch" />
+                  <h1 className="mb-4">
+                    ร้านขายโทรศัพท์ <br />
+                    มือถือราคาถูกยี่ห้อ PG <br />
+                    <span className="accent-text">PGPHONE ยินดีต้อนรับ</span>
+                  </h1>
+
+                  <p className="mb-4 mb-md-5">
+                    PGPhone ร้านขายโทรศัพท์มือถือแบรนด์ PG คุณภาพเยี่ยม ดีไซน์ล้ำสมัย ฟีเจอร์ครบครัน ตอบโจทย์ทุก
+                    ไลฟ์สไตล์ ในราคาคุ้มค่า พร้อมบริการหลังการขายมาตรฐาน
+                  </p>
+
+                  <div className="hero-buttons">
+                    <a href="#about" className="btn btn-primary me-0 me-sm-2 mx-1">เริ่มต้นเลย</a>
+                    <a href="assets/img/pgv9.mp4" className="btn btn-link mt-2 mt-sm-0 glightbox">
+                      <i className="bi bi-play-circle me-1"></i>
+                      รีวิวโทรศัพท์ คลิ๊กเลย
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-6">
+                <div className="hero-image" data-aos="zoom-out" data-aos-delay="300">
+                  <img src="assets/img/illustration-1.webp" alt="Hero Image" className="img-fluid" />
+                  <div className="customers-badge">
+                    <div className="customer-avatars">
+                      <img src="assets/img/testimonial-1.jpg" alt="Customer 1" className="avatar" />
+                      <img src="assets/img/testimonial-2.jpg" alt="Customer 2" className="avatar" />
+                      <img src="assets/img/testimonial-3.jpg" alt="Customer 3" className="avatar" />
+                      <span className="avatar more">12+</span>
+                    </div>
+                    <p className="mb-0 mt-2">ผู้ใช้งานโทรศัพท์ PGPHONE มากกว่า 639,699</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-md-6 align-self-center text-center text-md-left">
-              <div className="content">
-                <h2 className="subheading text-white font-weight-bold mb-10">
-                โทรศัพท์มือถือระบบแอนดรอยด์
-                </h2>
-                <p className="text-white">
-                ร้านขายโทรศัพท์มือถือราคาถูก PG เว็บตรง จากต่างประเทศ 100% โทรศัพท์มือถือPGเว็บตรง100% โทรศัพท์มือถือ PG สมาร์ทโฟน 4G หน้าจอ ความกว้างหน้าจอ 6 นิ้ว ความละเอียดหน้าจอ HD
-                โทรศัพท์มือถือ PG สมาร์ทโฟน 4G หน้าจอกว้าง 6 นิ้ว รองรับ 2 ซิม 4G ร้านขายโทรศัพท์ราคาถูกที่สุด PG เว็บตรง ช่วงโปรโมชั่น แรงๆ ปลดล็อคหน้าจอด้วยระบบสแกนหน้า
-                PGเว็บตรงจากต่างประเทศ100% เล่นเกมลื่นไม่มีสะดุดแบตอึดทน PGเว็บตรงช่วงโปรโมชั่น PGเว็บตรงเว็บไซต์จากสิงค์โปร PGเว็บตรง100%
-                </p>
+
+            <div className="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
+              <div className="col-lg-3 col-md-6">
+                <div className="stat-item">
+                  <div className="stat-icon">
+                    <i className="bi bi-trophy"></i>
+                  </div>
+                  <div className="stat-content">
+                    <h4>10+ รางวัลนวัตกรรม</h4>
+                    <p className="mb-0">การันตีคุณภาพและเทคโนโลยีล้ำสมัย</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="stat-item">
+                  <div className="stat-icon">
+                    <i className="bi bi-briefcase"></i>
+                  </div>
+                  <div className="stat-content">
+                    <h4>50+ รุ่นให้เลือก</h4>
+                    <p className="mb-0">ตอบโจทย์ทุกไลฟ์สไตล์การใช้งาน</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="stat-item">
+                  <div className="stat-icon">
+                    <i className="bi bi-graph-up"></i>
+                  </div>
+                  <div className="stat-content">
+                    <h4>ลูกค้ากว่า 100,000 คน</h4>
+                    <p className="mb-0">ไว้วางใจและเลือกใช้ PGPhone</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="stat-item">
+                  <div className="stat-icon">
+                    <i className="bi bi-award"></i>
+                  </div>
+                  <div className="stat-content">
+                    <h4>บริการหลังการขายยอดเยี่ยม</h4>
+                    <p className="mb-0">ดูแลโดยทีมผู้เชี่ยวชาญมืออาชีพ</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        
+        {/* Rest of your sections below */}
+        {/* About Section */}
+        <section id="about" className="about section">
+          <div className="container" data-aos="fade-up" data-aos-delay="100">
+            <div className="row gy-4 align-items-center justify-content-between">
+              <div className="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+                <span className="about-meta">ข้อมูลเพิ่มเติมเกี่ยวกับเรา</span>
+                <h2 className="about-title">ร้านขายโทรศัพท์มือถือราคาถูกยี่ห้อ PG</h2>
+                <p className="about-description">
+                  โทรศัพท์มือถือราคา โทรศัพท์มือถือระบบแอนดรอยด์ ร้านขายโทรศัพท์มือถือราคาถูก PGเว็บตรงจากต่างประเทศ100% ...
+                </p>
+                <div className="row feature-list-wrapper">
+                  <div className="col-md-6">
+                    <ul className="feature-list">
+                      <li><i className="bi bi-check-circle-fill"></i> สมาร์ทโฟนดีไซน์พรีเมียม</li>
+                      <li><i className="bi bi-check-circle-fill"></i> ประสิทธิภาพลื่นไหล ตอบสนองทุกการใช้งาน</li>
+                      <li><i className="bi bi-check-circle-fill"></i> กล้องคมชัด เก็บทุกช่วงเวลาสำคัญ</li>
+                    </ul>
+                  </div>
+                  <div className="col-md-6">
+                    <ul className="feature-list">
+                      <li><i className="bi bi-check-circle-fill"></i> แบตเตอรี่อึด ใช้งานได้ตลอดวัน</li>
+                      <li><i className="bi bi-check-circle-fill"></i> เทคโนโลยีล้ำหน้า รองรับ 5G</li>
+                      <li><i className="bi bi-check-circle-fill"></i> รับประกันคุณภาพ พร้อมบริการหลังการขาย</li>
+                    </ul>
+                  </div>
+                </div>
 
-      <section className="feature-list section">
-  <div className="container">
-    <div className="row">
-      <div className="col-md-12">
-        <div className="heading">
-          <h2>PGเว็บตรงจากต่างประเทศ100%</h2>
-        </div>
-      </div>
-    </div>
-    
-    <div className="row mb-40">
-      <div className="col-md-6 text-center mb-5 mb-lg-0">
-        <img className="img-fluid" src="/img/slider/showcase-4.png" alt=""/>
-      </div>
-      <div className="col-md-6 align-self-center text-center text-md-left">
-        <div className="content">
-          <h4 className="subheading">PGเว็บตรงช่วงโปรโมชั่นแรงๆ
-          </h4>
-          <p> ร้านขายโทรศัพท์ราคาถูกที่สุดPG เว็บตรง ช่วงโปรโมชั่นแรงๆ ปลดล็อคหน้าจอด้วยระบบสแกนหน้า
-          PG เว็บตรง ช่วงโปรโมชั่น
-          ร้านขายโทรศัพท์ราคาถูกที่สุดPG ปลดล็อคหน้าจอด้วยระบบสแกนหน้า เล่นเกมลื่นไม่มีสะดุดแบตอึดทน PG เว็บตรง ช่วงโปรโมชั่น PG เว็บตรงเว็บไซต์จากสิงค์โปร
+                <div className="info-wrapper">
+                  <div className="row gy-4">
+                    <div className="col-lg-5">
+                      <div className="profile d-flex align-items-center gap-3">
+                        <img src="assets/img/avatar-1.webp" alt="CEO Profile" className="profile-image" />
+                        <div>
+                          <h4 className="profile-name">Mario Smith</h4>
+                          <p className="profile-position">CEO &amp; Founder</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-7">
+                      <div className="contact-info d-flex align-items-center gap-2">
+                        <i className="bi bi-telephone-fill"></i>
+                        <div>
+                          <p className="contact-label">โทรหาเราได้ตลอดเวลา</p>
+                          <p className="contact-number">+99 639-688</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-</p>
-          
-        </div>
-      </div>
-    </div>
-    
-    <div className="row mb-40">
-      <div className="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
-        <div className="content">
-          <h4 className="subheading">โทรศัพท์มือถือระบบแอนดรอยด์</h4>
-          <p>ร้านขายโทรศัพท์มือถือราคาถูก PG เว็บตรง จากต่างประเทศ 100% โทรศัพท์มือถือPGเว็บตรง100% โทรศัพท์มือถือ PG สมาร์ทโฟน 4G หน้าจอ ความกว้างหน้าจอ 6 นิ้ว ความละเอียดหน้าจอ HD
+              <div className="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+                <div className="image-wrapper">
+                  <div className="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                    <img src="assets/img/clients/showcase-3.png" alt="Business Meeting" className="img-fluid main-image rounded-4" />
+                    <img src="assets/img/showcase-1.png" alt="Team Discussion" className="img-fluid small-image rounded-4" />
+                  </div>
+                  <div className="experience-badge floating">
+                    <h3>10+ <span>Years</span></h3>
+                    <p>ประสบการณ์ด้านบริการธุรกิจ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-</p>
-          
-        </div>
-      </div>
-      <div className="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
-        <img className="img-fluid" src="/img/slider/showcase-3.png" alt=""/>
-      </div>
-    </div>
-    
-    
-  </div>
-</section>
-
-<hr />
-
-
-    
+        {/* Continue with other sections */}
+      </main>
     </>
-  )
+  );
 }
