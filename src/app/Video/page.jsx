@@ -11,6 +11,64 @@ export default function VideoPage() {
  <meta name="description" content="ชมรีวิวโทรศัพท์มือถือ PG V9 ที่ดีที่สุด ฟีเจอร์เด่น ประสิทธิภาพสูง รองรับทุกอุปกรณ์!" />
  <meta name="keywords" content="รีวิวโทรศัพท์ PG V9, รีวิวมือถือ, PG V9, โทรศัพท์มือถือ" />
 
+      <body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">PGPHONESHOP</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">หน้าแรก</a></li>
+          <li><a href="#about">เกี่ยวกับ</a></li>
+          <li><a href="#features">คุณสมบัติ</a></li>
+          <li><a href="#pricing">นโยบายความเป็นส่วนตัว</a></li>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">เริ่มต้นเลย</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="company-badge mb-4">
+                <i class="bi bi-gear-fill me-2"></i>
+                PGPHONESHOP
+              </div>
+
+              <h1 class="mb-4">
+                ร้านขายโทรศัพท์ <br>
+                มือถือราคาถูกยี่ห้อ PG <br>
+                <span class="accent-text">PGPHONE ยินดีต้อนรับ</span>
+              </h1>
+
+              <p class="mb-4 mb-md-5">
+                PGPhone ร้านขายโทรศัพท์มือถือแบรนด์ PG คุณภาพเยี่ยม ดีไซน์ล้ำสมัย ฟีเจอร์ครบครัน ตอบโจทย์ทุก
+                ไลฟ์สไตล์ ในราคาคุ้มค่า พร้อมบริการหลังการขายมาตรฐาน
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">เริ่มต้นเลย</a>
+                <a href="assets/img/pgv9.mp4" class="btn btn-link mt-2 mt-sm-0 glightbox">
+                  <i class="bi bi-play-circle me-1"></i>
+                  รีวิวโทรศัพท์ คลิ๊กเลย
+                </a>
+              </div>
+            </div>
+          </div>
+
       <Script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
